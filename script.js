@@ -6,7 +6,7 @@ const countdown = document.getElementById('countdown');
 const year = document.getElementById('year');
 const loading =document.getElementById('loading');
 
-const countDownDate = new Date("November 15, 2021 00:25:00").getTime();
+const countDownDate = new Date("November 15, 2021 00:33:00").getTime();
 
 //update countdown time
 function updateCountdown(){
