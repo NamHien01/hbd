@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+      setTimeout("location.href = '/balloon.html';",6000);
+  </script>
+    <style>
+        body {
+  margin: 0;
+  background: #020202;
+  cursor: crosshair;
+}
+canvas{display:block}
+h1 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: "Source Sans Pro";
+  font-size: 5em;
+  font-weight: 900;
+  -webkit-user-select: none;
+  user-select: none;
+}
+    </style>
+</head>
+<body>
+  <div style="visibility: hidden;">
+    <embed src="./img/fireworks.mp3" autostart="true" loop="true">
+    </div>  
+<canvas id="birthday"></canvas>
+</html>
+
+<script src="./firework.js"></script>
+
